@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(176, 197, 184);
+    padding: 25px;
+}
+
+#input{
+    border: 2px solid #33483a;
+    padding-left: 5px;
+    height: 40px;
+    width: 500px;
+    font-size: 20px;
+}
+
+.create_button{
+    width: 200px;
+    height: 40px;
+    border: 2px solid #194429;
+    cursor: pointer;
+    background-color: rgba(111, 173, 148, 0.63);
+    font-size: 20px;
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    margin:  0 auto;
+}
+
+.todo_list{
+    width: 750px;
+    margin: 0 auto;
+}
+.block_text{
+    width: 100%;
+    border: 2px solid #33483a;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    font-size: 20px;
+    font-family: Arial,sans-serif;
+}
+
+.delete_text{
+    width: 130px;
+    height: 40px;
+    border: 2px solid rgba(139, 0, 0, 0.49);
+    background: #653d3d;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.edite_button{
+    width: 130px;
+    height: 40px;
+    border: 2px solid #153428;
+    background: #628c6f;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.div_button{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
